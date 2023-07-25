@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+</head>
+<body>
+
+<div id="main">
+
+    <div>
+        <h2>wins</h2>
+        <p id="you won">you : 0</p>
+        <p id='oponent won'>oponent : 0</p>
+    </div>
+
+    <div>
+        <h1 id="you">your`e turn</h1>
+        <h1 id="oponent">oponent turn</h1>
+    </div>
+
+    <div id="gameBoard">
+        <table>
+            <tr>
+                <td class="td" id="1" onclick="put(1) , checkBoard()" > </td>
+                <td class="td" id="2" onclick="put(2) , checkBoard()" > </td>
+                <td class="td" id="3" onclick="put(3) , checkBoard()" > </td>
+            </tr>
+            <tr>
+                <td class="td" id="4" onclick="put(4) , checkBoard()" > </td>
+                <td class="td" id="5" onclick="put(5) , checkBoard()" > </td>
+                <td class="td" id="6" onclick="put(6) , checkBoard()" > </td>
+            </tr>
+            <tr>
+                <td class="td" id="7" onclick="put(7) , checkBoard()" > </td>
+                <td class="td" id="8" onclick="put(8) , checkBoard()" > </td>
+                <td class="td" id="9" onclick="put(9) , checkBoard()" > </td>
+            </tr>
+        </table>
+    </div> 
+
+    <button onclick="again()" >again</button>
+</div>
+
+    <script src='script.js'></script>
+
+</body>
+</html>

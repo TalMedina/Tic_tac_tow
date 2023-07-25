@@ -1,0 +1,36 @@
+
+#main{
+    display: block;
+    text-align: center;
+    background-color: lightgrey;
+}
+
+#gameBoard {
+    display: block;
+    height: 360px;
+}
+
+button {
+    height: 30px;
+    width: 75px;
+    font-size: large;
+}
+
+table {
+    font-size: 8ch;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid;
+    border-collapse: collapse;
+    height: 330px;
+    width: 330px;
+}
+tr {
+    border: solid;
+}
+td {
+    height: 110px;
+    width: 110px;
+    border: solid;
+}
